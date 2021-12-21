@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.0.1...1.0.2) (2021-12-21)
+
+
+### Bug Fixes
+
+* Fix sonar token variable ([e49ee7a](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/e49ee7ac98e7ec541d50f3f1442e5c76aa484a50))
+* Fix sonar token variable typo ([9e1d806](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/9e1d8066788ab60e35789fe4b16b70ce35e30427))
+
 ## [1.0.1](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.0.0...1.0.1) (2021-12-21)
 
 
