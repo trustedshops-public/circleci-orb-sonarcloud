@@ -1,0 +1,40 @@
+description: >
+  Install and run sonar-scanner
+parameters:
+  version:
+    default: 4.6.2.2472
+    description: Version of sonar-scanner to install
+    type: string
+  cache_version:
+    default: 1
+    description: increment this value if the cache is corrupted and you want to start with a clean cache
+    type: integer
+  sonar_token:
+    default: SONAR_TOKEN
+    description: Name of the environment variable where the SonarCloud API token is stored
+    type: env_var_name
+  default_branch:
+    default: main
+    description: Name of the default branch for pull request analysis
+    type: string
+  pr_provider:
+    default: GitHub
+    description: Pull Request provider for sonar-scanner
+    type: string
+steps:
+  - run:
+      command: mkdir -p /tmp/cache/scanner
+      name: Create cache directory if it doesn't exist
+  - restore_cache:
+      keys:
+        - v<<parameters.cache_version>>-sonarcloud-scanner-<<parameters.version>>
+  - run:
+      name: Install sonar-scanner
+      environment:
+        PARAM_VERSION: <<parameters.version>>
+        PARAM_DEFAULT_BRANCH: <<parameters.default_branch>>
+        PARAM_PR_PROVIDER: <<parameters.pr_provider>>
+      command: <<include(scripts/run.sh)>>
+  - save_cache:
+      key: v<<parameters.cache_version>>-sonarcloud-scanner-<<parameters.version>>
+      paths: /tmp/cache/scanner

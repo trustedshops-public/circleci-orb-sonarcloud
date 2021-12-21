@@ -1,0 +1,7 @@
+version: 2.1
+
+description: |
+  CircleCI Orb to run SonarCloud with automatic pull request analysis
+display:
+  home_url: "https://github.com/trustedshops-public/circleci-orb-sonarcloud"
+  source_url: "https://github.com/trustedshops-public/circleci-orb-sonarcloud"
