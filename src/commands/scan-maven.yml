@@ -1,0 +1,25 @@
+description: >
+  Scan using maven plugin
+
+parameters:
+  sonar_token:
+    default: SONAR_TOKEN
+    description: Name of the environment variable where the SonarCloud API token is stored
+    type: env_var_name
+  default_branch:
+    default: main
+    description: Name of the default branch for pull request analysis
+    type: string
+  pr_provider:
+    default: GitHub
+    description: Pull Request provider for sonar-scanner
+    type: string
+
+steps:
+  - run:
+      name: Run maven sonar scan
+      environment:
+        PARAM_DEFAULT_BRANCH: <<parameters.default_branch>>
+        PARAM_PR_PROVIDER: <<parameters.pr_provider>>
+        PARAM_SONAR_TOKEN: <<parameters.sonar_token>>
+      command: <<include scripts/run-maven.sh)>>
