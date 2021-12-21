@@ -5,7 +5,7 @@ circleci-orb-sonarcloud
 [![CircleCI Build Status](https://circleci.com/gh/trustedshops-public/circleci-orb-sonarcloud.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/trustedshops-public/circleci-orb-sonarcloud)
 [![CircleCI Orb Version](https://badges.circleci.com/orbs/trustedshops-public/sonarcloud.svg)](https://circleci.com/orbs/registry/orb/trustedshops-public/sonarcloud)
 
-CircleCI orb sonarcloud
+CircleCI Orb to run SonarCloud with automatic pull request analysis
 
 ## Resources
 
