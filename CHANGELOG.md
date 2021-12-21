@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.0.4...1.1.0) (2021-12-21)
+
+
+### Bug Fixes
+
+* Fix include syntax ([58542d5](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/58542d55e94c9b384b73819f98f14c8db2ec063b))
+
+
+### Features
+
+* Add maven scan ([5768366](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/576836612574c34285136d71ad6c23a520d8e4b8))
+
 ## [1.0.4](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.0.3...1.0.4) (2021-12-21)
 
 
