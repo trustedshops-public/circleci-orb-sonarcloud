@@ -31,7 +31,7 @@ steps:
       keys:
         - v<<parameters.cache_version>>-sonarcloud-scanner-<<parameters.version>>
   - run:
-      name: Install sonar-scanner
+      name: Install and run sonar-scanner
       environment:
         PARAM_VERSION: <<parameters.version>>
         PARAM_DEFAULT_BRANCH: <<parameters.default_branch>>
