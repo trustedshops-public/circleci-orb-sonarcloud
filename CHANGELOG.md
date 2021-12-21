@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.0.0...1.0.1) (2021-12-21)
+
+
+### Bug Fixes
+
+* Fix cache directory ([0d45722](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/0d4572229633199eb949d7bb53974c76e345b93a))
+
 # 1.0.0 (2021-12-21)
 
 
