@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export SONAR_TOKEN="$<<parameters.sonar_token_variable_name>>"
+export SONAR_TOKEN="${PARAM_SONAR_TOKEN}"
 export SCANNER_DIRECTORY=/tmp/cache/scanner
 export SONAR_USER_HOME=$SCANNER_DIRECTORY/.sonar
 export OS="linux"
