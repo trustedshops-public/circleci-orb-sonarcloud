@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.0.3...1.0.4) (2021-12-21)
+
+
+### Bug Fixes
+
+* Use variable indirection for sonar token env var name ([70f879b](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/70f879bdaf1e3d8e66beaa3e2cce66ca98433aae))
+
 ## [1.0.3](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.0.2...1.0.3) (2021-12-21)
 
 
