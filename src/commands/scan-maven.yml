@@ -22,4 +22,4 @@ steps:
         PARAM_DEFAULT_BRANCH: <<parameters.default_branch>>
         PARAM_PR_PROVIDER: <<parameters.pr_provider>>
         PARAM_SONAR_TOKEN: <<parameters.sonar_token>>
-      command: <<include scripts/run-maven.sh)>>
+      command: <<include(scripts/run-maven.sh)>>
