@@ -15,7 +15,7 @@ chmod +x "${SCANNER_DIRECTORY}/sonar-scanner-${PARAM_VERSION}-${OS}/jre/bin/java
 
 SCANNER_BIN="${SCANNER_DIRECTORY}/sonar-scanner-${PARAM_VERSION}-${OS}/bin/sonar-scanner"
 
- # Report quality status on pull requests
+# Report quality status on pull requests
 if [[ -n $CIRCLE_PULL_REQUEST ]];
 then
   PR_ARGS="-Dsonar.pullrequest.key=${CIRCLE_PULL_REQUEST##*/} \
