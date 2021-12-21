@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.1.0...1.1.1) (2021-12-21)
+
+
+### Bug Fixes
+
+* Fix step title for sonar-cloud run ([33ce422](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/33ce422f798ef3a8b38bcf615ff5f57f94d6fa6e))
+
 # [1.1.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.0.4...1.1.0) (2021-12-21)
 
 
