@@ -1,10 +1,9 @@
 #!/bin/bash
 
 export SONAR_TOKEN="$<<parameters.sonar_token_variable_name>>"
+export SCANNER_DIRECTORY=/tmp/cache/scanner
 export SONAR_USER_HOME=$SCANNER_DIRECTORY/.sonar
-
-SCANNER_DIRECTORY=/tmp/cache/scanner
-OS="linux"
+export OS="linux"
 
 if [[ ! -x "${SCANNER_DIRECTORY}/sonar-scanner-${PARAM_VERSION}-${OS}/bin/sonar-scanner" ]]; then
   curl -Ol "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-${PARAM_VERSION}-${OS}.zip"
