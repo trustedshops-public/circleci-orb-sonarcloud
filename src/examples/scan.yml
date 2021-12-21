@@ -1,0 +1,14 @@
+description: Run sonar scanner
+usage:
+  version: 2.1
+  orbs:
+    sonarcloud: trustedshops-public/sonarcloud@<version>
+  jobs:
+    test:
+      executor: sonarcloud/default
+      steps:
+        - run:
+            name: Run tests
+            command: |
+              make test
+        - sonarcloud/scan
