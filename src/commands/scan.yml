@@ -34,7 +34,7 @@ steps:
         PARAM_VERSION: <<parameters.version>>
         PARAM_DEFAULT_BRANCH: <<parameters.default_branch>>
         PARAM_PR_PROVIDER: <<parameters.pr_provider>>
-        PARAM_SONAR_TOKEN: <<paramters.sonar_token>>
+        PARAM_SONAR_TOKEN: <<parameters.sonar_token>>
       command: <<include(scripts/run.sh)>>
   - save_cache:
       key: v<<parameters.cache_version>>-sonarcloud-scanner-<<parameters.version>>
