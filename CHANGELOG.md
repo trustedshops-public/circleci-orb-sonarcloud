@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.1.1...1.2.0) (2022-06-22)
+
+
+### Features
+
+* Upgrade sonar-scanner to 4.7 ([5796998](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/57969982cbe7d0572a1e60de30fd698f7f68be9b))
+
 ## [1.1.1](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.1.0...1.1.1) (2021-12-21)
 
 
