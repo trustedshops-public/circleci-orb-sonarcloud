@@ -3,7 +3,7 @@ description: >
 
 parameters:
   version:
-    default: 4.6.2.2472
+    default: 4.7.0.2747
     description: Version of sonar-scanner to install
     type: string
   cache_version:
