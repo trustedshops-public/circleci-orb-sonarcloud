@@ -14,6 +14,14 @@ parameters:
     default: GitHub
     description: Pull Request provider for sonar-scanner
     type: string
+  run_when:
+    default: false
+    description: Behaviour to add to steps in scanning
+    type: enum
+    enum:
+      - on_success
+      - on_fail
+      - always
 
 steps:
   - run:
@@ -23,3 +31,4 @@ steps:
         PARAM_PR_PROVIDER: <<parameters.pr_provider>>
         PARAM_SONAR_TOKEN: <<parameters.sonar_token>>
       command: <<include(scripts/run-maven.sh)>>
+      when: <<parameters.run_when>>
