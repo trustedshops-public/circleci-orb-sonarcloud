@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.2.0...1.3.0) (2022-08-29)
+
+
+### Features
+
+* Add run_when parameter ([#1](https://github.com/trustedshops-public/circleci-orb-sonarcloud/issues/1)) ([afacf5e](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/afacf5e906443adcbec99071f8c3f7afadee9bfb))
+
 # [1.2.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.1.1...1.2.0) (2022-06-22)
 
 
