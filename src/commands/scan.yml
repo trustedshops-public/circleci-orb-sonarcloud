@@ -23,7 +23,7 @@ parameters:
     description: Pull Request provider for sonar-scanner
     type: string
   run_when:
-    default: false
+    default: on_success
     description: Behaviour to add to steps in scanning
     type: enum
     enum:
