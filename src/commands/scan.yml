@@ -3,6 +3,7 @@ description: >
 
 parameters:
   version:
+    # renovate: datasource=github-releases depName=SonarSource/sonar-scanner-cli
     default: 4.8.0.2856
     description: Version of sonar-scanner to install
     type: string
