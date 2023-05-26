@@ -11,4 +11,4 @@ usage:
             name: Run tests
             command: |
               make test
-        - sonarcloud/scan-maven
+        - sonarcloud/scan_maven
