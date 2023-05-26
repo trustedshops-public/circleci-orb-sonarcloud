@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.4.0...2.0.0) (2023-05-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* Migrate to orb tools v12 (#12)
+
+### Code Refactoring
+
+* Migrate to orb tools v12 ([#12](https://github.com/trustedshops-public/circleci-orb-sonarcloud/issues/12)) ([f919c71](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/f919c71b068e6fd513dcdd991d9a1e35a27af569))
+
 ## [1.4.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.3.0...1.4.0) (2023-01-26)
 
 
