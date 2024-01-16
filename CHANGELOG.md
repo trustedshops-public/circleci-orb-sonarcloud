@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/2.0.0...3.0.0) (2024-01-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade sonar scanner cli
+
+### Features
+
+* Upgrade sonar scanner cli ([e807b23](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/e807b235b90c2fac1fa57211350a763e6b587fc7))
+
 ## [2.0.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/1.4.0...2.0.0) (2023-05-26)
 
 
