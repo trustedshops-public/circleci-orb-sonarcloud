@@ -4,7 +4,7 @@ description: >
 parameters:
   version:
     # renovate: datasource=github-releases depName=SonarSource/sonar-scanner-cli versioning=regex:^(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)\.(?<build>\d+)$
-    default: "5.0.1.3006"
+    default: "7.3.0.5189"
     description: Version of sonar-scanner to install
     type: string
   cache_version:
