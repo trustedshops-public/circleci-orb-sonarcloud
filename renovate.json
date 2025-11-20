@@ -3,10 +3,11 @@
   "extends": [
     "local>trustedshops-public/.github:renovate-config"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
-      "fileMatch": [
-        "^src\/.*yml$"
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/^src/.*yml$/"
       ],
       "matchStrings": [
         "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s.*?default: ?\"(?<currentValue>.*)?\""
