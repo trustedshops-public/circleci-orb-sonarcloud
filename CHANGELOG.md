@@ -1,3 +1,19 @@
+## [4.0.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/3.0.0...4.0.0) (2026-07-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **scan:** version pins below 6.1 no longer work;
+the install script now downloads arch-suffixed artifacts
+(linux-x64/linux-aarch64), which only exist for scanner
+CLI 6.1+. Drop the pin or use 6.1.0.4477 or later.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+### Bug Fixes
+
+* **scan:** upgrade scanner CLI to 8.1.0 for Java 21 ([ccc1957](https://github.com/trustedshops-public/circleci-orb-sonarcloud/commit/ccc19572f36d0fcae9f6a1387a0b89957808f4b1))
+
 ## [3.0.0](https://github.com/trustedshops-public/circleci-orb-sonarcloud/compare/2.0.0...3.0.0) (2024-01-16)
 
 
